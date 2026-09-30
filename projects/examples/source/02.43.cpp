@@ -36,7 +36,7 @@ auto factorial(int x) -> int
 {
 	return x > 1 ? x * factorial(x - 1) : 1;
 }
-
+//auto will be useful for schedules - for ex, auto sum(T a, U b) -> decltype(x + y)
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 auto combination_v1(int x, int y)
@@ -57,7 +57,7 @@ auto combination_v2(int x, int y) -> int
 		return 0;
 	}
 }
-
+// Pascal triangle
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 auto catalan_v1(int x)
